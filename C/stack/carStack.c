@@ -5,6 +5,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+//#include <stdbool.h>
+//#include <string.h>
 
 #define MAX 100  //maximum stack size
 
@@ -101,3 +103,28 @@ int main() {
 
     return 0;
 }
+
+//bool removeCarsUntil(int plate, Stack parking) {
+//  int sequence[10];
+//  int car = pop(&parking);
+//  int count = 0;
+//  if(car == plate) {
+//      print("Nenhum carro precisa ser retirado");
+//      return true
+//  } else{
+//      sequence[count] = car;
+//      count++;
+//  }
+//  while(!isEmpty(&parking)){
+//      car = pop(&parking);
+//      if(car != plate) {
+//          strcat(sequence, " ");
+//          strcat(sequence, "%d", car);
+//      } else {
+//          printf("Sequencia de carros a ser retirada");
+//          printf("%s", sequence);
+//          return true;
+//      }
+//  }
+//  return false;
+//}
